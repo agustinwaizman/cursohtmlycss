@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+}
+.barra-lateral{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    justify-content: space-around;
+    border-right: 3px solid rgb(160, 5, 5);
+}
+.elemento {
+    border-radius: 5px;
+    background-color: rgb(198, 91, 91);
+    padding: 7px;
+    box-shadow: 5px 5px 15px #000;
+    color: rgb(52, 25, 25);
+    cursor: pointer;
+}
+.seccion-principal{
+    padding: 5px;
+    display: flex;
+    flex-grow: 2;
+    background-color: rgb(237, 134, 134);
+}
+@media screen and (max-width: 640px){
+    .barra-lateral{
+        flex-direction: row;
+    }
+    .contenedor{
+        flex-direction: column-reverse;
+    }
+}
