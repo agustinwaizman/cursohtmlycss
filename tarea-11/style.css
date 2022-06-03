@@ -1,0 +1,18 @@
+.row div{
+    margin: 0.25px;
+}
+.col{
+    background-color: beige;
+}
+.col-sm{
+    background-color: blueviolet;
+}
+.col-md{
+    background-color: coral;
+}
+.col-lg{
+    background-color: red;
+}
+.col-xl{
+    background-color: pink;
+}
