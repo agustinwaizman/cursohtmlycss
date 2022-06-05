@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elementos de interes en bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <section class="section1">
+        <div class="container">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Bienvenidos al himalaya</h1>
+                    <p class="col-md-8 fs-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, reprehenderit! Molestias aut officia, obcaecati excepturi inventore numquam aliquid dolor? Asperiores, ad vitae. Id laudantium eaque accusamus odio assumenda? Ducimus, consequuntur.
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalDeEjemplo">Modal</button>
+                    <div class="modal fade" data-bs-backdrop="static" id="ModalDeEjemplo">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">Este es el header del modal</div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis aliquid assumenda laudantium natus quam tempora, ex beatae delectus amet soluta similique incidunt dignissimos numquam eius quas rerum voluptatibus porro!
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <form>
+            <h1>Formulario de contacto</h1>
+            <div class="mb-3 px-3">
+                <label for="nombre" class="form-label">Introduce tu nombre</label>
+                <input type="text" class="form-control" placeholder="Tu Nombre" id="nombre">
+            </div>
+            <div class="mb-3 px-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="number" class="form-control" id="telefono" placeholder="Numero telefonico"aria-describedby="telefono">
+                <div id="telefono" class="form-text">Lo necesitamos para poder contactarte</div>
+            </div>
+            <div class="mb-3 px-3">
+                <label for="textarea" class="form-label">Dejanos tu mensaje</label>
+                <textarea class="form-control" id="textarea" rows="5"></textarea>
+            </div>
+            <div class="px-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+    </section>
+    <section class="section3">
+    <div class="card m-4" style="width: 50%;">
+        <img src="unidefinitivo.png" alt="yop">
+        <div class="card-body">
+            <h5 class="card-tittle">Mi nombre es Agustin Waizman</h5>
+            <p class="card-text">soy de Chaco, Argentina. Tengo 23 años y estoy estudiando programacion de manera autodidacta y mediante cursos on-line</p>
+        </div>
+        <div class="card-footer">
+            <p class="card-text">aguswaizman98@gmail.com</p>
+        </div>
+    </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
